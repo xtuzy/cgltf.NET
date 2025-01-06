@@ -1,3 +1,4 @@
 [submodule "Hebron"]
 	path = Hebron
 	url = https://github.com/xtuzy/Hebron.git
+        branch = cgltf.NET
