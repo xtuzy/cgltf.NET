@@ -1,7 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>latest</LangVersion>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <VersionPrefix>1.14</VersionPrefix>
+    <VersionSuffix>beta</VersionSuffix>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Hebron\src\Hebron.Runtime\Hebron.Runtime.csproj" />
+  </ItemGroup>
 
 </Project>
