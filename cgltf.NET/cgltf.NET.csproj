@@ -12,5 +12,10 @@
   <ItemGroup>
     <ProjectReference Include="..\Hebron\src\Hebron.Runtime\Hebron.Runtime.csproj" />
   </ItemGroup>
-
+  <ItemGroup>
+    <None Include="..\Hebron\src\Hebron.Runtime\bin\Release\net8.0\Hebron.Runtime.dll">
+        <Pack>true</Pack>
+        <PackagePath>lib\net8.0\</PackagePath>
+    </None>
+</ItemGroup>
 </Project>
